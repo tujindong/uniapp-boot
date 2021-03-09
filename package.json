@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vconsole": "^3.4.0",
+	"uni-simple-router": "1.5.5"
+  }
+}

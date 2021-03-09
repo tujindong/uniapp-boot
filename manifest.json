@@ -1,5 +1,5 @@
 {
-    "name" : "xx-mall",
+    "name" : "uniapp-boot",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -77,5 +77,10 @@
     },
     "uniStatistics" : {
         "enable" : false
+    },
+    "h5" : {
+        "router" : {
+            "mode" : "history"
+        }
     }
 }

@@ -1,17 +1,29 @@
 {
-	"pages": [
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTextStyle": "white" 
-			}
-		}
-	],
+	"pages": [{
+		"path": "pages/view/home/home",
+		"style": {}
+	},{
+		"path": "pages/view/mine/mine",
+		"style": {}
+	},{
+		"path": "pages/view/demo/demoList",
+		"style": {}
+	},{
+		"path": "pages/view/exception/404",
+		"style": {}
+	}],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/view/home/home"
+		}, {
+			"pagePath": "pages/view/mine/mine"
+		}]
+	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#ffffff",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智圣新创",
+		"navigationBarBackgroundColor": "#5a9fdd",
+		"backgroundColor": "#f2f2f2"
 	},
 	"easycom": {
 		"^u-(.*)": "@/plugin/uview-ui/components/u-$1/u-$1.vue"

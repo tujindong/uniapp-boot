@@ -1,6 +1,6 @@
 <template>
 	<view class="page_content">
-		
+		登录
 	</view>
 </template>
 
@@ -8,34 +8,23 @@
 	export default {
 		data() {
 			return {
-				msg: 'gogogo'
+				
 			};
 		},
 
-		components: {
-			
+		onLoad(options) {
 		},
 
-		computed: {
+		onReady() {
 			
 		},
-
-		onLoad() {
-			
-		},
-
-		onReady() {},
 
 		onShow() {
 			
 		},
 
-		onReachBottom() {
-			
-		},
-
 		methods: {
-			
+
 		},
 	};
 </script>
